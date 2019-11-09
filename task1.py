@@ -30,10 +30,3 @@ with open('2000_GirlsNames.csv', 'w') as csvFile:
     input.writerow(['Name', 'Count'])
     for key, val in dict2.items():
         input.writerow([key,val])
-
-
-##TASK 2
-
-name = input("Which list would you like to see? 1: BoysNames 2:GirlsNames ")
-if name == 1:
-    with open
