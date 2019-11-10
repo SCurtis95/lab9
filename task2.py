@@ -13,6 +13,7 @@ if name == '1':
                 x=str(line).rstrip()    ##Converts to strign and strips line
                 x.split(",")        ##Split list item with a ,
                 bList.append(x)     ##Append string to list
+    csvfile.close()
     print(bList)
     
 elif name == '2':
@@ -26,6 +27,7 @@ elif name == '2':
                 x=str(line).rstrip()
                 x.split(",")
                 gList.append(x)
+    csvfile.close()
     print(gList)
 
 
