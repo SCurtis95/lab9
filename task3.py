@@ -17,9 +17,10 @@ def generateDictionary():
         for s in val:
             s = val.lstrip('0x')
             for i in range(0,len(s),2):
-                k=int(i)
+                a=hex(i)
+                k=int(a)
                 code.append(bin(k))
-            return code 
+            
     print(dict1)
 
 generateDictionary()        
